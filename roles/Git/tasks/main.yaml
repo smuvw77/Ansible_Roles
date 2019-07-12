@@ -1,4 +1,4 @@
 
 ---
-- name: Ensure that Apache and Git is installed
+- name: Ensure that  Git is installed
   yum: name=git state=present
