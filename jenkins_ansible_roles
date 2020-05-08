@@ -14,7 +14,7 @@ node('Ansible_Server_node'){
  # ansible-playbook /home/ansadmin/workspace/Job_Ansible_Roles/playbook_main.yaml
    ansible-playbook ${WORKSPACE}/playbook_main.yaml
    
-   echo ${BUILD_NUMBER}
+   echo ${WORKSPACE}
   
    '''
    }
